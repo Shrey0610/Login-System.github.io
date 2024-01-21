@@ -1,0 +1,32 @@
+body{
+    /* background-color: rgb(252, 247, 241); */
+    background-image: url('/assets/sea-with-boats-it-surrounded-by-hills-covered-greenery-sunlight_181624-10685.jpg');
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.center-div{
+    padding-top: 10%;
+}
+
+.container{
+    z-index: 2;
+    background-color: rgba(255, 252, 252, 0.689);
+    font-family: 'Playfair Display', serif;
+
+}
+
+form{
+    padding: 0 1.7em;
+
+}
+
+#login.title > span{ 
+    font-size: 0.8em;
+}
+
+
+.alter{
+    background-color: crimson;
+}
