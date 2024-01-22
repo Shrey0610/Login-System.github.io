@@ -2,7 +2,7 @@
 Welcome to the simplest login system you  can use for your college project!
 
 ## Overview 🚀
-It is made using- Node.js, express, js, and els (which is basically more preferred then normal HTML).
+It is made using- Node.js, express, js, and ejs (which is basically more preferred then normal HTML).
 
 ## Steps to do it-
 1. Clone the repository
