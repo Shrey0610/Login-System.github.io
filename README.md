@@ -17,7 +17,8 @@ source venv/bin/activate
 ```
 
 3. Install express
-```npm install express
+```
+npm install express
 ```
 
 4. Install nodemon for not refreshing the page again and again
