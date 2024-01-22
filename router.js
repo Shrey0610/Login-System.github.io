@@ -40,4 +40,15 @@ router.get('/logout', (req,res)=>{
     })
 });
 
+
+router.get('/dasboard', (req,res)=>{
+    res.redirect('/route/dashboard');
+    // res.render('dashboard', {title: "Welcome" });
+});
+
+router.get('/login', (req,res)=>{
+    res.redirect('/login');
+    // res.render('dashboard', {title: "Welcome" });
+});
+
 module.exports= router;

@@ -42,13 +42,13 @@ function runMeow(){
 }
 
 //route and function
-app.get('/',function(req,res) {
+app.get('/dashboard',function(req,res) {
     // res.send("Hello from server");
-    
-    res.json({
-        name: "Shrey",
-        age: 20
-    });
+    res.render('dashboard', { title : "Login System"});
+    // res.json({
+    //     name: "Shrey",
+    //     age: 20
+    // });
 
     //  res.status(200).json({
     //     name: "Shrey",
@@ -68,6 +68,11 @@ app.post("/backend/meow/:name", function(req,res){
     console.log(req.params.name);
     
 })
+
+app.get('/', (req,res)=>{
+    res.render('dashboard', { title : "Login System"});
+    // res.json({
+});
 
 
 app.listen(3000, ()=>{

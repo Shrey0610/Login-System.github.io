@@ -1,0 +1,18 @@
+<%- include('header') -%>
+
+<form action="/login" method="get" class="py-3">
+<button type="submit" class="btn btn-success">Login</button>
+</form>
+
+<div class="text-center center-div" id="login">
+    <div class="container w-25 border py-5">
+        <div class="title pb-5">
+            <h2 class="font-weight-bold">Welcome!</h2>
+            <h4>This is the first page you'll see</h4>
+            <%if(locals.logout){ %>
+                <div class="alter alter-success text-center">
+                   <%= logout %>
+                </div>
+            <% } %>
+        </div>
+<%- include('footer') -%>
