@@ -7,7 +7,7 @@ It is made using- Node.js, express, js, and ejs (which is basically more preferr
 ## Steps to do it-
 1. Clone the repository
 ```bash
-git clone https://github.com/Vr978/Login-System.github.io.git
+git clone https://github.com/Vr978/Login-System.github.io
 ```
 
 2. Make virtual environment and activate it
