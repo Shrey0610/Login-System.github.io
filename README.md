@@ -16,17 +16,22 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-3. Install express
+3. Install the dependencies
+```
+npm init -y
+```
+
+4. Install express
 ```
 npm install express
 ```
 
-4. Install nodemon for not refreshing the page again and again
+5. Install nodemon for not refreshing the page again and again
 ```
 npm i nodemon
 ```
 
-5. Start the server
+6. Start the server
 ```
 npm run server
 ```
